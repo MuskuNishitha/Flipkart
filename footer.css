@@ -1,0 +1,376 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+
+    }
+    a{
+        text-decoration: none;
+        color:black;
+        }
+    #dispalysdd{
+        top:200px;
+        z-index:2;
+        height:280px;
+        width:280px;
+        background-color: white;
+        border:1px solid white;
+        position:absolute;
+        color:black;
+        margin-top:-121px;
+        margin-left:1050px;
+        display: none;
+        box-shadow:0px 0px 3px black;
+    }
+    #logindivtag{
+        top:200px;
+        z-index:2;
+        height:340px;
+        width:310px;
+        background-color: white;
+        border:1px solid white;
+        position:absolute;
+        color:black;
+        margin-top:-127px;
+        margin-left:920px;
+        display: none;
+        box-shadow:0px 0px 3px black;
+        
+        
+    }
+    #logininnerdiv img{
+        height:30px;
+        width:30px;
+    }
+#logininnerdiv{
+    margin-left:20px;
+
+}
+#dotsone{
+    border:1px solid  white;
+    background-color: white;
+    
+}
+#button3{
+    height:30px;
+    width:100px;
+    margin-top: -10px;
+    border:1px solid white;
+    border-radius: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+    #srcalt img{
+        height:38;
+        width:38px;
+    
+    }
+   .nishi{
+    padding-top:25px;
+    padding-left:20px;
+   }
+   .nishi span{
+    padding-left:10px;
+   }
+   .nishi img{
+    padding-bottom:10;
+   }
+   .nishithha{
+    padding-top:15px;
+    padding-left:10px;
+   }
+   .nishithha span{
+    padding-left:20px;
+   }
+   #achar{
+    color:rgb(8, 8, 163);
+   }
+   #mnisahha:hover{
+    transform:rotate(-180px);
+    transition: all 2s;
+   }
+   #sportsgeal{
+    top:50px;
+    position: relative;
+    height:470px;
+    width:100%px;
+    background-color: white;
+    margin-left:10px;
+   }
+   #sportsdisplay{
+    display: flex;
+    margin-left: 20px;
+    gap:10px;
+    overflow: hidden;
+    cursor: pointer;
+    overflow: hidden;
+    scroll-behavior: smooth;
+   }
+   #sportsdisplay p span{
+    font-weight: 600;
+    transform: translateX(390px);
+
+
+   }
+   #sportsdisplay p{
+  transform: translateX(-30px);
+   }
+   #sportsdisplay div{
+    width:500px;
+    padding-left:60px;
+    height:310px;
+  border-radius: 5px;
+    border:1px solid gainsboro;
+    background-color:white;
+   
+   }
+#sportsdisplay img{
+    height:250px;
+    width:150px;
+    padding-top:15px;
+    transform: translateX(-35px);
+
+}
+/* ---------- */
+#beautyfoof{
+    top:70px;
+    position: relative;
+    height:470px;
+    width:100%px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    margin-left: 10px;
+   }
+   #beautiggood{
+    display: flex;
+    margin-left: 20px;
+    gap:10px;
+    overflow: hidden;
+    
+   }
+   #beautiggood p span{
+    font-weight: 600;
+    transform: translateX(390px);
+
+
+   }
+   #beautiggood p{
+  transform: translateX(-30px);
+   }
+   #beautiggood div{
+    width:500px;
+    padding-left:60px;
+    height:310px;
+  border-radius: 5px;
+    border:1px solid gainsboro;
+    background-color:white;
+   
+   }
+#beautiggood img{
+    height:230px;
+    width:150px;
+    padding-top:15px;
+    transform: translateX(-35px);
+
+}
+/* ------ */
+#fashionbest{
+    top:100px;
+    position: relative;
+    height:470px;
+    width:100%px;
+    background-color: white;
+    cursor: pointer;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    margin-left:10px;
+   }
+   #fashionthe{
+    display: flex;
+    margin-left: 20px;
+    gap:10px;
+    overflow: hidden;
+    
+   }
+   #fashionthe p span{
+    font-weight: 600;
+    transform: translateX(390px);
+
+
+   }
+   #fashionthe p{
+  transform: translateX(-30px);
+   }
+   #fashionthe div{
+    width:500px;
+    padding-left:60px;
+    height:310px;
+   border-radius: 5px;
+    border:1px solid gainsboro;
+    background-color:white;
+   
+   }
+#fashionthe img{
+    height:230px;
+    width:150px;
+    padding-top:15px;
+    transform: translateX(-35px);
+
+}
+#rectivelu{
+        top:120px;
+        position: relative;
+        height:370px;
+        width:100%px;
+        background-color: white;
+        cursor: pointer;
+        margin-left:20px;
+        
+       
+}
+#rectivelu div img{
+    height:200px;
+    width:160px;
+}
+#rectivelu div{
+    padding-top:10px;
+    padding-left: 50px;
+}
+#helloworld{
+    width:240px;
+    height:300px;
+    border:1px solid gainsboro; 
+    border-radius: 5px;
+}
+#rectivelu h1{
+    font-size:23px;
+padding-right: 20px;
+transform: translateX(-50px);
+}
+#rectivelu span{
+    font-weight: 600;
+}
+
+#footerdiv{
+    top:270px;
+    position: relative;
+    height:500px;
+    width:100%;
+    background-color: black;
+    color:white;
+    z-index:5;
+}
+#footerdiv a,h5{
+    padding-top:10px;
+    color:white;
+}
+#footerdiv a{
+    font-size:14px;
+    line-height:15px;
+    
+}
+#footerdiv a:hover{
+    text-decoration: underline;
+}
+#footerdiv h5{
+    font-size:16px;
+    color:gainsboro;
+}
+#divtagfase{
+    margin-top:10px;
+    display: flex;
+    gap:50px;
+    margin-left:10px;
+}
+#divtagfase{
+    padding-top:30px;
+    padding-left:30px;
+}
+#imagesdiv{
+    display: flex;
+    padding-left:30px;
+    gap:40px;
+}
+#buttonbtnimg{
+    height:40px;
+    width:40px;
+    top:10px;
+    position: relative;
+    z-index:5;
+}
+#buttonbtnimg button{
+    height:50px;
+    width:50px;
+    background-color:white;
+    border:1px solid white;
+    border-radius:100%;
+}
+#buttonbtnimg img{
+    height:30px;
+    width:30px;
+    fill:white;
+
+}
+#btnimgalt{
+    padding-top:300px;
+   display: flex;
+  gap:1250px;
+
+}
+/* -------- */
+#buttonalt{
+    height:40px;
+    width:40px;
+    top:10px;
+    position: relative;
+    z-index:5;
+}
+#buttonalt button{
+    height:50px;
+    width:50px;
+    background-color:white;
+    border:1px solid white;
+    border-radius:100%;
+}
+#buttonalt img{
+    height:30px;
+    width:30px;
+    fill:white;
+
+}
+#imagesges{
+    padding-top:300px;
+   display: flex;
+  gap:1250px;
+
+}
+/* ---------- */
+#bestbutdiv{
+    height:40px;
+    width:40px;
+    top:10px;
+    position: relative;
+    z-index:5;
+}
+#bestbutdiv button{
+    height:50px;
+    width:50px;
+    background-color:white;
+    border:1px solid white;
+    border-radius:100%;
+}
+#bestbutdiv img{
+    height:30px;
+    width:30px;
+    fill:white;
+
+}
+#divbtnimg{
+    padding-top:300px;
+   display: flex;
+  gap:1250px;
+
+}

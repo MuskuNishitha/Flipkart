@@ -1,0 +1,112 @@
+@import url(./main.css);
+@import url(./footer.css);
+*{
+padding: 0%;
+margin: 0%;
+box-sizing: border-box;
+font-family: inter_regular,fallback-inter_regular,Arial,sans-serif;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#maincontainer{
+    display: flex;
+    top:2px;
+    padding-top:0.9em;
+    position: relative;
+    gap:30px
+}
+#fixedcontainer{
+    z-index:10;
+width:100%;
+/* border:1px solid red; */
+box-shadow:0px 0px 2px black;
+height:60px;
+background-color: white;
+position: fixed;
+
+}
+#container{
+ width:550px;
+
+padding-left:12px;
+ height:40px;
+margin-top: -8px;
+ margin-left: 20px;
+ padding-top: 8px;
+ border:1px solid rgb(67, 225, 225);
+ background-color:rgb(67, 225, 225);
+ border-radius: 5px;
+}
+#totalbackground{
+    width:100%;
+   height:2400px;
+    
+    background-color:rgb(248, 245, 245);
+}
+#displayhead{
+    top:45px;
+    position: relative;
+    display: flex;
+    width:1320px;
+    height:110px;
+    background-color: white;
+    border:1px solid white;
+    margin-left: 16px;
+    padding-left: 50px;
+    font-size:15px;
+    padding-top:10px;
+    gap:55px;
+  
+
+}
+#corcsolbtstrp{
+   top:60px !important;
+   margin-left: 16px !important;
+   width: 1320px !important;;
+   position: relative !important;
+}
+
+#fashiondiv{
+    top:150px;
+    position: absolute;
+    z-index:5;
+    display: none;
+}
+#displayfashion h6{
+ font-weight: 600;
+}
+#displayfashion{
+    display: flex;
+    margin-top:40px;
+    margin-left:180px;
+    
+}
+
+#innerdivfasion1{
+ background-color: white;
+ height:500px;
+ width:250px;
+ margin-top:10px;
+ padding-left:20px;
+ box-shadow:0px 0px 2px black;
+
+}
+
+#innerdivfasion2{
+    background-color: white;
+    margin-top:10px;
+    height:500px;
+    width:250px;
+    padding-left:20px;
+    box-shadow:0px 0px 4px black;
+   }
+   #fas:hover{
+    color:blue;
+   }
+   #fasimag:hover{
+    transform: translateX(-180px);
+   }
+  
